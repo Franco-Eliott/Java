@@ -32,6 +32,7 @@ public class NorthSouthCenterLayout {
         fenetre.setLocationRelativeTo(null);
         fenetre.setVisible(true);
 
+        
     }
     
 }
