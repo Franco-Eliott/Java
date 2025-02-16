@@ -3,7 +3,7 @@
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+// import java.awt.event.*;
 
 
 
@@ -32,7 +32,7 @@ public class NorthSouthCenterLayout {
         fenetre.setLocationRelativeTo(null);
         fenetre.setVisible(true);
 
-        
+
     }
     
 }
