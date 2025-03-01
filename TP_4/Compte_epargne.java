@@ -16,7 +16,7 @@ public class Compte_epargne extends Compte {
     }
 
     public void setTauxInteretJournalier (float newtauxInteretJournalier) {
-        tauxInteretJournalier = newtauxInteretJournalier;
+        this.tauxInteretJournalier = newtauxInteretJournalier;
     }
 
     public void AjoutInteret (Compte_epargne ce) {

@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class exo2a {
+public class Exo2a {
     
     public static void main (String [] args) {
 

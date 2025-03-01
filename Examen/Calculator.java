@@ -104,7 +104,7 @@ public class Calculator implements ActionListener {
         new Calculator();
     }
 
-    // @Override
+    @Override
     public void actionPerformed(ActionEvent e) {
 
         for (int i = 0; i < 10; i++) {

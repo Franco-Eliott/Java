@@ -25,16 +25,27 @@ public class ImageSwitcherGrid implements ActionListener {
         fenetre.setLayout(null);
         fenetre.setSize(800, 420);
 
-        tabIcons1[0] = new ImageIcon("images/1/3.gif");
-        tabIcons1[1] = new ImageIcon("images/1/4.gif");
-        tabIcons1[2] = new ImageIcon("images/1/5.gif");
-        tabIcons1[3] = new ImageIcon("images/1/6.gif");
+        // tabIcons1[0] = new ImageIcon("images/1/3.gif");
+        // tabIcons1[1] = new ImageIcon("images/1/4.gif");
+        // tabIcons1[2] = new ImageIcon("images/1/5.gif");
+        // tabIcons1[3] = new ImageIcon("images/1/6.gif");
 
-        tabIcons2[0] = new ImageIcon("images/2/1.jpg");
-        tabIcons2[1] = new ImageIcon("images/2/2.jpg");
-        tabIcons2[2] = new ImageIcon("images/2/3.jpg");
-        tabIcons2[3] = new ImageIcon("images/2/4.jpg");
-        tabIcons2[4] = new ImageIcon("images/2/5.jpg");
+        // tabIcons2[0] = new ImageIcon("images/2/1.jpg");
+        // tabIcons2[1] = new ImageIcon("images/2/2.jpg");
+        // tabIcons2[2] = new ImageIcon("images/2/3.jpg");
+        // tabIcons2[3] = new ImageIcon("images/2/4.jpg");
+        // tabIcons2[4] = new ImageIcon("images/2/5.jpg");
+
+        tabIcons1[0] = new ImageIcon("pvz2/plants/1.png");
+        tabIcons1[1] = new ImageIcon("pvz2/plants/2.png");
+        tabIcons1[2] = new ImageIcon("pvz2/plants/3.png");
+        tabIcons1[3] = new ImageIcon("pvz2/plants/4.png");
+
+        tabIcons2[0] = new ImageIcon("pvz2/zombies/1.png");
+        tabIcons2[1] = new ImageIcon("pvz2/zombies/2.png");
+        tabIcons2[2] = new ImageIcon("pvz2/zombies/3.png");
+        tabIcons2[3] = new ImageIcon("pvz2/zombies/4.png");
+        tabIcons2[4] = new ImageIcon("pvz2/zombies/5.png");
 
         button1 = new JButton(tabIcons1[i]);
         button1.setFocusable(false);
