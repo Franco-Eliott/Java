@@ -37,8 +37,10 @@ public class Calculator implements ActionListener {
         divButton = new JButton("/");
         decButton = new JButton(".");
         equButton = new JButton("=");
+        equButton.setBackground(Color.orange);
         delButton = new JButton("Delete");
         clrButton = new JButton("Clear");
+        clrButton.setBackground(Color.red);
         negButton = new JButton("(-)");
 
         fonctionButtons[0] = addButton;
