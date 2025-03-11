@@ -34,19 +34,20 @@ public class Cercle {
     }
 
     public float perimetre () {
-        return PI * this.rayon * this.rayon;
+        return PI * this.rayon * 2;
+
     }
 
     public float perimetre (Cercle c) {
-        return PI * c.rayon * c.rayon;
+        return PI * c.rayon * 2;
     }
 
     public float surface () {
-        return PI * this.rayon * 2;
+        return PI * this.rayon * this.rayon;
     }
 
     public float surface (Cercle c) {
-        return PI * c.rayon * 2;
+        return PI * c.rayon * c.rayon;
     }
 
     public boolean surLeCercle (Point p) {

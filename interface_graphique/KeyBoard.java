@@ -27,6 +27,7 @@ public class KeyBoard {
 
         equalButton = new JButton("=");
         equalButton.setFont(font);
+        equalButton.setBackground(Color.ORANGE);
         equalButton.setFocusable(false);
         
         mulButton = new JButton("*");

@@ -10,7 +10,7 @@ public class test_cercle {
 
         Cercle c2 = new Cercle(p1, 25);
         System.out.println(c);
-        // System.out.println(c2);
+        System.out.println(c2);
 
         System.out.println(p1); // correct
 
